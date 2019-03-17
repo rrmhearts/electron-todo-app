@@ -2,7 +2,7 @@
   "name": "electron-todo",
   "version": "0.1.0",
   "description": "A simple educational todo app",
-  "main": "main.js",
+  "main": "scripts/main.js",
   "scripts": {
     "start": "electron ."
   },

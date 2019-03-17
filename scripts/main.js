@@ -14,7 +14,7 @@ const todosData = new DataStore({ name: 'Todos Main' })
 function main () {
   // todo list window
   let mainWindow = new Window({
-    file: path.join('renderer', 'index.html')
+    file: path.join('view', 'index.html')
   })
 
   // add todo window
@@ -33,7 +33,7 @@ function main () {
     if (!addTodoWin) {
       // create a new add todo window
       addTodoWin = new Window({
-        file: path.join('renderer', 'add.html'),
+        file: path.join('view', 'add.html'),
         width: 400,
         height: 400,
         // close with the main window
