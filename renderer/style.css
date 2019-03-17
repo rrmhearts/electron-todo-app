@@ -1,5 +1,11 @@
 body {
   font: caption;
+  background: #FFFF99
+}
+
+.text-center {
+  font-family: "Georgia";
+  text-align: center;
 }
 
 .todo-item {
@@ -12,6 +18,10 @@ body {
 
 .todo-item:nth-child(even) {
   background: #f4f4ff;
+}
+
+.todo-item:nth-child(odd) {
+  background: #ADFF2F;
 }
 
 .todo-item:hover {

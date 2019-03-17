@@ -21,7 +21,7 @@ function main () {
   let addTodoWin
 
   // TODO: put these events into their own file
-
+  mainWindow.setMenu(null)
   // initialize with todos
   mainWindow.once('show', () => {
     mainWindow.webContents.send('todos', todosData.todos)
@@ -39,7 +39,7 @@ function main () {
         // close with the main window
         parent: mainWindow
       })
-
+      addTodoWin.setMenu(null)
       // cleanup
       addTodoWin.on('closed', () => {
         addTodoWin = null
