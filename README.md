@@ -1,6 +1,7 @@
+# Electron ToDo App
 
-# Electron Todo
+Based on a version found on Medium. Made color and text changes. Will continue to change.
 
-A simple todo app made with Electron.
+Original: [Medium Todo App](https://codeburst.io/build-a-todo-app-with-electron-d6c61f58b55a)
 
-[See the tutorial here](https://medium.com/@codedraken)
+
