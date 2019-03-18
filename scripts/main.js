@@ -20,7 +20,6 @@ function main () {
   // add todo window
   let addTodoWin
 
-  // TODO: put these events into their own file
   mainWindow.setMenu(null)
   // initialize with todos
   mainWindow.once('show', () => {

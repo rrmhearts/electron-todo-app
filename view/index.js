@@ -8,7 +8,7 @@ const deleteTodo = (e) => {
 }
 
 // create add todo window button
-document.getElementById('createTodoBtn').addEventListener('click', () => {
+document.getElementById('plusToDoBtn').addEventListener('click', () => {
   ipcRenderer.send('add-todo-window')
 })
 

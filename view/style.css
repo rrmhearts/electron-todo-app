@@ -1,8 +1,13 @@
 body {
   font: caption;
-  background: #FFFF99
+  background: #FFFF99;
 }
 
+.btn {
+  background: #FFFF99;
+  border: none;
+  font-size: 24px;
+}
 .text-center {
   font-family: "Georgia";
   text-align: center;
@@ -17,11 +22,11 @@ body {
 }
 
 .todo-item:nth-child(even) {
-  background: #f4f4ff;
+  background: ##FFFF99;
 }
 
 .todo-item:nth-child(odd) {
-  background: #ADFF2F;
+  background: ##FFFF99;
 }
 
 .todo-item:hover {
