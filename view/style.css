@@ -8,6 +8,11 @@ body {
   border: none;
   font-size: 24px;
 }
+
+.form-input {
+  background-color: inherit;
+  border: none;
+}
 .text-center {
   font-family: "Georgia";
   text-align: center;
